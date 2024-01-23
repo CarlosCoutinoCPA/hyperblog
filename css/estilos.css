@@ -7,6 +7,17 @@ body {
     padding: 0;
 }
 
+#cabecera {
+    background-color: #33a;
+    color: #fff;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 0px 37px -12px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 37px -12px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 37px -12px rgba(0, 0, 0, 1);
+    margin: 0;
+    padding: 0.5em;
+}
+
 #container {
     width: 70%;
     padding: 1em;
@@ -17,4 +28,15 @@ body {
 
 #container h1 {
     font-size: 20px;
+}
+
+.post {
+    margin: 1em 0;
+    padding: 1em;
+}
+
+#tagline {
+    font-weight: normal;
+    font-size: 0.8em;
+    color: #999;
 }
